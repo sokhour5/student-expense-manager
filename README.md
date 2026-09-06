@@ -14,6 +14,10 @@ The project demonstrates core object-oriented programming concepts including inh
 - Validate user input
 - Menu-driven console interface
 
+## Preview
+
+![Student Expense Manager Preview](expense-manager-preview.png)
+
 ## Technologies Used
 
 - Java
