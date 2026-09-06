@@ -1,0 +1,31 @@
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Java compiled files
+*.class
+
+# Build/output folders
+out/
+build/
+target/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Temporary files
+*.log
+*.tmp
+*.swp
+
+# Java package/archive files
+*.jar
+*.war
+*.ear
+
+# Keep source code
+!src/
+!src/**/*.java
