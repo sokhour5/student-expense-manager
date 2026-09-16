@@ -1,46 +1,54 @@
-# Student Expense Manager
+# 💰 Student Expense Manager
 
-A console-based Java application for managing student expenses.
+A console-based Java application for managing student expenses, built to demonstrate core Object-Oriented Programming (OOP) concepts and practical Java development.
 
-The project demonstrates core object-oriented programming concepts including inheritance, polymorphism, encapsulation, collections, and input validation.
+The application allows users to record normal and discounted expenses, calculate spending totals, identify the highest expense, and interact with the program through a menu-driven console interface.
 
-## Features
+## ✨ Features
 
 - Add standard expenses
 - Add discounted expenses
+- Automatically calculate prices after discounts
 - View all recorded expenses
-- Calculate total spending
+- Calculate total spending after discounts
 - Find the highest expense
-- Validate user input
+- Validate numeric user input
+- Handle invalid menu selections
 - Menu-driven console interface
 
-## Preview
+## 🧠 Object-Oriented Programming Concepts
 
-![Student Expense Manager Preview](expense-manager-preview.png)
+This project demonstrates several core Java and OOP concepts:
 
-## Technologies Used
+- **Encapsulation** — expense data is stored in private fields and accessed through methods
+- **Inheritance** — `DiscountedExpense` extends the `Expense` class
+- **Polymorphism** — normal and discounted expenses are stored together as `Expense` objects
+- **Method Overriding** — `DiscountedExpense` overrides `getFinalAmount()` and `showInfo()`
+- **Constructors** — used to initialise expense objects
+- **Collections** — `ArrayList<Expense>` stores the application's expenses
+
+## 🛠️ Technologies
 
 - Java
 - Object-Oriented Programming
-- ArrayList
-- Scanner
+- Java ArrayList
+- Java Scanner
+- IntelliJ IDEA
 - Git
 - GitHub
 
-## Object-Oriented Programming Concepts
+## 📸 Preview
 
-This project demonstrates:
+![Student Expense Manager Preview](expense-manager-preview.png)
 
-- **Encapsulation** through private fields and getter/setter methods
-- **Inheritance** using `DiscountedExpense extends Expense`
-- **Polymorphism** by storing different expense types in an `ArrayList<Expense>`
-- **Method overriding** for calculating and displaying discounted expenses
-- **Object-oriented class design** using separate classes for different responsibilities
-
-## Project Structure
+## 📂 Project Structure
 
 ```text
-src/
-├── Expense.java
-├── DiscountedExpense.java
-└── StudentExpenseManager.java
+student-expense-manager/
+├── src/
+│   ├── Expense.java
+│   ├── DiscountedExpense.java
+│   └── StudentExpenseManager.java
+├── .gitignore
+├── README.md
+└── expense-manager-preview.png
